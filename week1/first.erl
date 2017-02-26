@@ -1,6 +1,6 @@
 -module(first).
 
--export([double/1,mult/2,area/3,treble/1]).
+-export([double/1,mult/2,area/3,treble/1,square/1]).
 
 mult(X,Y) ->
 
@@ -19,3 +19,7 @@ area(A,B,C) ->
 treble(X) ->
 
     mult(3, X).
+
+square(X) ->
+
+    X*X.
